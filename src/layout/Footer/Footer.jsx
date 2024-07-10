@@ -15,7 +15,7 @@ export default function Footer() {
         <Row className='pt-5 px-5 d-flex justify-content-between align-items-center'>
             <Col lg={3} md={5} sm={6}>
                 <img src={logo} alt="logo" className='logo'/>
-                <span className='logo-name'> الداعم الدائم</span>
+                <span className='logo-name'> ابداع الماسي</span>
             </Col>
             <Col lg={4} md={5} sm={6} className="social-media me-auto">
                 <span className='social-icon me-lg-auto'><FaFacebook /></span>
@@ -29,7 +29,7 @@ export default function Footer() {
         <Row className='pt-4'>
             <Col lg={3} md={3} sm={6} className='my-3'>
                 <span className='footer-title'>من نحن</span>
-                <p>مؤسسة "الداعم الداعم هي مؤسسة رائدة في مجال المساعدة الإدارية و الموارد البشرية وتطوير المواهب. تأسست المؤسسة بهدف تقديم خدمات شاملة ومتخصصة للشركات والمؤسسات لمساعدتها في تحقيق أهدافها وتطوير مواردها البشرية</p>
+                <p>مؤسسة ابداع الماسي هي مؤسسة رائدة في مجال المساعدة الإدارية و الموارد البشرية وتطوير المواهب. تأسست المؤسسة بهدف تقديم خدمات شاملة ومتخصصة للشركات والمؤسسات لمساعدتها في تحقيق أهدافها وتطوير مواردها البشرية</p>
             </Col>
             <Col lg={3} md={3} sm={6} className='my-3'>
                 <span className='footer-title'>الوصول السريع</span>
