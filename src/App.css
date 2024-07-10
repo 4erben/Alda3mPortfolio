@@ -4,9 +4,11 @@
   padding: 0;
 }
 :root{
-  --c-header:linear-gradient(180deg, rgba(49,101,113,1) 14%, rgba(81,164,163,1) 32%, rgba(89,173,171,1) 75%, rgba(89,173,171,1) 100%);
+  --c-header:linear-gradient(180deg, rgba(3,4,94,1) 14%, rgba(2,62,138,1) 32%, rgba(0,119,182,1) 75%, rgba(0,180,216,1) 86%, rgba(0,150,199,1) 100%);
   --c-footer: #291e43;
   --c-footer-copy-right:#408090;
+
+
 }
 
 ::-webkit-scrollbar {
@@ -76,7 +78,7 @@ body{
 }
 .haikei{
   background:transparent !important;
-  path{ fill: #59adab !important;}
+  path{ fill: #0096c7 !important;}
 }
       .special-title{
       font-size: 32px;
