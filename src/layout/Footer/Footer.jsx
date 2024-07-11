@@ -8,6 +8,7 @@ import { IoMdArrowDropleft } from 'react-icons/io';
 import { CiLocationOn, CiMail } from 'react-icons/ci';
 import { MdOutlineSupportAgent } from 'react-icons/md';
 import { IoCallOutline } from 'react-icons/io5';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -33,34 +34,34 @@ export default function Footer() {
             </Col>
             <Col lg={3} md={3} sm={6} className='my-3'>
                 <span className='footer-title'>الوصول السريع</span>
-                <div className='access-li'>
+                <Link to="/" className='access-li'>
                     <span><IoMdArrowDropleft /></span>
                     <span className='li'>الصفحة الرئيسية</span>
-                </div>
-                <div className='access-li'>
+                </Link>
+                <Link to="/services" className='access-li'>
                     <span><IoMdArrowDropleft /></span>
                     <span className='li'>الخدمات</span>
-                </div>
-                <div className='access-li'>
+                </Link>
+                <Link to="/blogs" className='access-li'>
                     <span><IoMdArrowDropleft /></span>
                     <span className='li'>المدونة</span>
-                </div>
-                <div className='access-li'>
+                </Link>
+                <Link to="/blogs" className='access-li'>
                     <span><IoMdArrowDropleft /></span>
                     <span className='li'>اخر الاخبار</span>
-                </div>
-                <div className='access-li'>
+                </Link>
+                <Link to="/about" className='access-li'>
                     <span><IoMdArrowDropleft /></span>
                     <span className='li'>من نحن</span>
-                </div>
-                <div className='access-li'>
+                </Link>
+                <Link to="/contact" className='access-li'>
                     <span><IoMdArrowDropleft /></span>
                     <span className='li'>تواصل معنا</span>
-                </div>
-                <div className='access-li'>
+                </Link>
+                <Link to="/about" className='access-li'>
                     <span><IoMdArrowDropleft /></span>
                     <span className='li'>شركاء النجاح</span>
-                </div>
+                </Link>
             </Col>
             <Col lg={3} md={3} sm={6} className='my-3'>
                 <span className='footer-title'>تواصل معنا</span>

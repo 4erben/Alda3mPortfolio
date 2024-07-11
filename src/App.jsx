@@ -10,6 +10,9 @@ import { Route, Routes } from 'react-router-dom';
 import ServicesP from './Pages/ServicesPage/ServicesP';
 import BlogsP from './Pages/BlogsPage/BlogsP';
 import AboutP from './Pages/AboutPage/AboutP';
+import ContactP from './Pages/ContactPage/ContactP';
+import ComServiceP from './Pages/CompanyServicePage/ComServiceP';
+import ServiceMeP from './Pages/ServiceMePage/ServiceMeP';
 
 function App() {
 
@@ -22,11 +25,10 @@ function App() {
         <Route path="/services" element={<ServicesP />} />
         <Route path="/blogs" element={<BlogsP />} />
         <Route path="/about" element={<AboutP />} />
+        <Route path="/contact" element={<ContactP />} />
+        <Route path="/companyService" element={<ComServiceP />} />
+        <Route path="/service-me" element={<ServiceMeP />} />
       </Routes>
-      
-
-   
-
       <Footer />
     </Container>
   )

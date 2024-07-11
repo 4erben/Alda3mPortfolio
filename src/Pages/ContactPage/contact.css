@@ -1,0 +1,58 @@
+.contactP{
+    .col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-c{
+        padding: 30px 40px;
+        border: 0;
+        box-shadow: 0 0 2px 1px rgba(143, 139, 139, 0.26);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+        min-width: 80%;
+        div{
+            margin: 15px 0;
+        }
+        small{
+            font-size: 16px ;
+        }
+            .icon-container{
+               /*  background-color: var(--bs-light); */
+                padding: 15px;
+                border-radius: 50%;
+                border: 1px dashed var(--bs-secondary);
+                transition: background-color 0.4s ease;
+                svg{
+                    width: 30px;
+                    height: 30px;
+                    fill: var(--bs-secondary);
+                    
+                }
+            }
+            .card-title{
+                font-size: 26px;
+                font-weight: bold;
+                
+            }
+    }
+    .card-c:hover {
+        .icon-container{
+            background-color: var(--bs-secondary);
+        }
+        svg{
+            fill: white;
+        }
+    }
+   .form-label{
+    font-weight: bold;
+    font-size: larger;
+   }
+   form div{
+    margin: 10px 0;
+   }
+}

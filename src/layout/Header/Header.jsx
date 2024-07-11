@@ -31,34 +31,34 @@ export default function Header() {
         </div>
         <hr/>
         <div className='d-flex flex-column'>
-            <Link to="/">
+            <Link to="/service-me">
                 <span><CiShop /></span>
                 <span>خدمات الافراد</span>
             </Link>
-            <Link to="/">
+            <Link to="/companyService">
                 <span><CiShop /></span>
                 <span>خدمات الشركات</span>
             </Link>
-            <Link to="/">
+            <Link to="/blogs">
                 <span><MdOutlineCategory /></span>
                 <span>المدونة</span>
             </Link>
-            <Link to="/">
+            <Link to="/about">
                 <span><FaPagelines /></span>
                 <span>الشركاء</span>
             </Link>
-            <Link to="/">
+            <Link to="/services">
                 <span><MdOutlineManageAccounts /></span>
                 <span>اهم خدماتنا</span>
             </Link>
         </div>
         <hr/>
         <div className='d-flex flex-column'>
-            <Link to="/">
+            <Link to="/about">
                 <span><IoIosHelpCircleOutline /></span>
                 <span>من نحن</span>
             </Link>
-            <Link to="/">
+            <Link to="/contact">
                 <span><MdWifiCalling2 /></span>
                 <span>تواصل معنا</span>
             </Link>
@@ -85,7 +85,7 @@ export default function Header() {
             </Link>
         </Nav>
         <div>
-            <button className='btn btn-secondary'>تواصل معنا</button>
+            <Link to="/contact" className='btn btn-secondary'>تواصل معنا</Link>
         </div>
     </div>
     </div>
